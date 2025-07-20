@@ -1,0 +1,59 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches e logs
+*.log
+*.cache
+
+# Testes e relatórios
+htmlcov/
+.tox/
+.coverage
+.cache
+.pytest_cache/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Arquivos de configuração de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos temporários
+*.tmp
+*.swp
+*~
+
+# Arquivos gerados pelo compilador
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos Python gerados a partir do C
+*.py
+!main.py
+!src/code_generator.py
+!src/lexer.py
+!src/parser.py
+!src/ast_nodes.py
+
+# Arquivos de saída de testes
+*.out
+*.err
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de backup
+*.bak
+
+# Arquivos de exemplos gerados
+exemplos/*.py 
